@@ -113,7 +113,7 @@
 		(uuid "3bb3f109-d66c-4b62-86e0-0e346bdd3d0b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_CUSTOM_DIR}/Models/RockerSwitchSPDT.step"
+	(model "D:/Git/KiCadCustom/Models/RockerSwitchSPDT.step"
 		(offset
 			(xyz 0 0 14.5)
 		)
