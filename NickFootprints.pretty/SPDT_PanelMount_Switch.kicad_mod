@@ -113,4 +113,15 @@
 		(uuid "3bb3f109-d66c-4b62-86e0-0e346bdd3d0b")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_CUSTOM_DIR}/Models/RockerSwitchSPDT.step"
+		(offset
+			(xyz 0 0 14.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
