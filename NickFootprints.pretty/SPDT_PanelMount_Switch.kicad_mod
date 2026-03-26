@@ -63,18 +63,30 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
+<<<<<<< HEAD
 		(uuid "9b425c01-51cd-4788-a734-33a7509bddc4")
+=======
+		(uuid "4e4dd33b-3599-4d8c-ad8c-b07ffa1e76b9")
+>>>>>>> 3b627780b271689f60c607c0342f98eca4a265c6
 	)
 	(fp_rect
 		(start -9.65 -6.75)
 		(end 9.65 6.75)
 		(stroke
+<<<<<<< HEAD
 			(width 0.1)
+=======
+			(width 0.05)
+>>>>>>> 3b627780b271689f60c607c0342f98eca4a265c6
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
+<<<<<<< HEAD
 		(uuid "3a0539bd-df6e-4015-8963-6721b65c0cd2")
+=======
+		(uuid "8f0c8896-da84-4bde-b6e0-503b14c50a9b")
+>>>>>>> 3b627780b271689f60c607c0342f98eca4a265c6
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 7.5 0)
@@ -113,7 +125,11 @@
 		(uuid "3bb3f109-d66c-4b62-86e0-0e346bdd3d0b")
 	)
 	(embedded_fonts no)
+<<<<<<< HEAD
 	(model "D:/Git/KiCadCustom/CadModels/RockerSwitchSPDT.step"
+=======
+	(model "${KICAD9_CUSTOM_DIR}/Models/RockerSwitchSPDT.step"
+>>>>>>> 3b627780b271689f60c607c0342f98eca4a265c6
 		(offset
 			(xyz 0 0 14.5)
 		)
