@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:UQFN-20-1EP_3x3mm_P0.4mm_EP1.85x1.85mm"
-			(at -0.762 -1.016 0)
+			(at -0.762 -3.556 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "MCP3562RT-E/NC"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP3561_2_4R-Data-Sheet-DS200006391C.pdf"
 			(at -0.762 -3.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100,7 +100,7 @@
 		)
 		(symbol "MCP3562RT-E_NC_0_1"
 			(pin input line
-				(at -19.05 6.35 0)
+				(at 8.89 -15.24 90)
 				(length 3.81)
 				(name "REFIN-"
 					(effects
@@ -118,7 +118,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -19.05 3.81 0)
+				(at -19.05 7.62 0)
 				(length 3.81)
 				(name "REFIN+/OUT"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -8.89 -15.24 90)
+				(at -10.16 -15.24 90)
 				(length 3.81)
 				(name "NC"
 					(effects
@@ -226,7 +226,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -6.35 -15.24 90)
+				(at -7.62 -15.24 90)
 				(length 3.81)
 				(name "NC"
 					(effects
@@ -244,7 +244,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -3.81 -15.24 90)
+				(at -5.08 -15.24 90)
 				(length 3.81)
 				(name "NC"
 					(effects
@@ -262,7 +262,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -1.27 -15.24 90)
+				(at -2.54 -15.24 90)
 				(length 3.81)
 				(name "NC"
 					(effects
@@ -280,7 +280,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -3.81 180)
+				(at 19.05 -6.35 180)
 				(length 3.81)
 				(name "*CS"
 					(effects
@@ -298,7 +298,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 -1.27 180)
+				(at 19.05 -3.81 180)
 				(length 3.81)
 				(name "SCK"
 					(effects
@@ -316,7 +316,7 @@
 				)
 			)
 			(pin input line
-				(at 19.05 1.27 180)
+				(at 19.05 -1.27 180)
 				(length 3.81)
 				(name "SDI"
 					(effects
@@ -334,7 +334,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 3.81 180)
+				(at 19.05 1.27 180)
 				(length 3.81)
 				(name "SDO"
 					(effects
@@ -352,7 +352,7 @@
 				)
 			)
 			(pin output line
-				(at 19.05 6.35 180)
+				(at 19.05 5.08 180)
 				(length 3.81)
 				(name "*IRQ/MDAT"
 					(effects
@@ -370,7 +370,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 19.05 -6.35 180)
+				(at 19.05 7.62 180)
 				(length 3.81)
 				(name "MCLK"
 					(effects
@@ -388,7 +388,7 @@
 				)
 			)
 			(pin power_out line
-				(at 5.08 -15.24 90)
+				(at 3.81 -15.24 90)
 				(length 3.81)
 				(name "DGND"
 					(effects
@@ -406,7 +406,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 15.24 270)
+				(at 2.54 15.24 270)
 				(length 3.81)
 				(name "DVDD"
 					(effects
@@ -424,7 +424,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 15.24 270)
+				(at -1.27 15.24 270)
 				(length 3.81)
 				(name "AVDD"
 					(effects
@@ -442,7 +442,7 @@
 				)
 			)
 			(pin power_out line
-				(at 7.62 -15.24 90)
+				(at 6.35 -15.24 90)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -460,7 +460,7 @@
 				)
 			)
 			(pin power_out line
-				(at 2.54 -15.24 90)
+				(at 1.27 -15.24 90)
 				(length 3.81)
 				(name "GND"
 					(effects
